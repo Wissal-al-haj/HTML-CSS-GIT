@@ -1,5 +1,7 @@
 .countries {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .countries--second .country {
@@ -7,3 +9,17 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  justify-content: flex-end;
+}
+.countries--second {
+  justify-content: space-around;
+}
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  justify-content: space-around;
+}
